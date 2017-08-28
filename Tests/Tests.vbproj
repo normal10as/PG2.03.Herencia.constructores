@@ -109,13 +109,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Entidades.vbproj">
-      <Project>{0f2195a7-83e5-4a98-9f42-4427bbb56e8e}</Project>
-      <Name>Entidades</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Entidades2\EntidadesConSobrecarga.vbproj">
+    <ProjectReference Include="..\EntidadesConSobrecarga\EntidadesConSobrecarga.vbproj">
       <Project>{65f4038b-930a-4039-9ed1-c09d96d14dbd}</Project>
       <Name>EntidadesConSobrecarga</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.vbproj">
+      <Project>{0f2195a7-83e5-4a98-9f42-4427bbb56e8e}</Project>
+      <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
