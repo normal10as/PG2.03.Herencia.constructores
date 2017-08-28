@@ -4,4 +4,5 @@
     Sub New()
         Console.WriteLine("Soy mamífero")
     End Sub
+
 End Class

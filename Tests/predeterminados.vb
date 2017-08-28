@@ -1,9 +1,8 @@
 ﻿Imports Entidades
 
-Module demo1
-
+Module predeterminados
     Sub Main()
-        Dim a As New Animal()
+        Dim h As New Humano()
     End Sub
 
 End Module
